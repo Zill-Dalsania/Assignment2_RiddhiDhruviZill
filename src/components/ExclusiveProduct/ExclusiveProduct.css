@@ -1,0 +1,52 @@
+.offer {
+  background: linear-gradient(
+      0deg,
+      rgba(39, 55, 85, 0.7),
+      rgba(39, 55, 85, 0.7)
+    ),
+    url(../../images/Tshirts.png);
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: 'Playfair Display', serif;
+}
+
+.col-2 .offer-img {
+  padding: 50px;
+}
+
+.offer p {
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #fffcf2;
+  margin: 0;
+}
+
+.offer .btn {
+  font-size: 20px;
+  color: #24324a;
+}
+
+.offer .col-2 h1 span {
+  color: #ffd741;
+}
+
+@media only screen and (max-width: 800px) {
+  .offer .col-2 p {
+    font-size: 14px;
+    color: #fffcf2;
+    line-height: 20px;
+  }
+  .offer .col-2 h1 {
+    font-size: 36px;
+    color: #fffcf2;
+    letter-spacing: 1px;
+  }
+  .offer .btn {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+}

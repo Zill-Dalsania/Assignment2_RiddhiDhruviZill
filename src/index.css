@@ -1,0 +1,78 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+}
+
+p {
+  color: #555;
+}
+
+.btn {
+  display: inline-block;
+  background: #ffd741;
+  color: #1a1400;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.title {
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+
+.title::after {
+  content: '';
+  background: #ffd741;
+  height: 5px;
+  width: 80px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h4 {
+  color: #555;
+  font-weight: normal;
+}
+
+.btn:hover {
+  background: #ffcf1a;
+}
+
+.ben {
+  background: #060500 #1a1400 #2d2400 #413300 #554300 #685200 #7c6200 #8f7100
+    #a38100 #b79000 #caa000 #deaf00 #f2bf00 Shade Color Variation #ffcb06
+    #c0baa4 #fff8de;
+}
