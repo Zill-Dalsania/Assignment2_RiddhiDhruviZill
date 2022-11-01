@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import Footer from '../../Footer/Footer';
+
 import CurrencyFormat from 'react-currency-format';
 import { useStateValue } from '../../../StateProvider';
 import { getBasketTotal } from '../../../reducer';
@@ -119,7 +119,7 @@ const Payment = () => {
           {error && <div>{error}</div>}
         </form>
       </div>
-      <Footer />
+      
     </>
   );
 };

@@ -6,7 +6,7 @@ import product20 from '../../images/Tshirts.png';
 import product21 from '../../images/shoe.jpg';
 import product22 from '../../images/airforce1.png';
 import product23 from '../../images/airforce2.png';
-import Footer from '../Footer/Footer';
+
 import './ProductDetails.css';
 import { Link } from 'react-router-dom';
 import { products } from '../../data';
@@ -190,7 +190,7 @@ const ProductDetails = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      
     </>
   );
 };

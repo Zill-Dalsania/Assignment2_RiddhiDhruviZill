@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../../Footer/Footer';
+
 import './ShoppingCart.css';
 import CurrencyFormat from 'react-currency-format';
 import { useStateValue } from '../../../StateProvider';
@@ -67,7 +67,7 @@ const ShoppingCart = () => {
           </button>
         </div>
       </div>
-      <Footer />
+    
     </>
   );
 };

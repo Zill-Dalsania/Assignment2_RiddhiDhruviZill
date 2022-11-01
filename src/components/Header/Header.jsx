@@ -8,7 +8,7 @@ const Header = () => {
       <div className='section__center'>
         <div className='hero__container'>
           <h1>
-            Welcome To <span>Integro</span> <br />
+            Welcome To <span>Ridruzi</span> <br />
             Wears<span>.</span>
           </h1>
           <p>

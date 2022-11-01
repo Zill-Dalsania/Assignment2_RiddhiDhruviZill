@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './EmptyCart.css';
-import Footer from '../Footer/Footer';
+
 
 export default function EmptyCart() {
   return (
@@ -12,7 +12,7 @@ export default function EmptyCart() {
           Fill It
         </Link>
       </section>
-      <Footer />
+    
     </>
   );
 }

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Footer from '../../Footer/Footer';
+
 import image1 from '../../../images/hood4.png';
 import './AccountPage.css';
 import { Link, useHistory } from 'react-router-dom';
@@ -105,7 +105,6 @@ const AccountPage = () => {
         </div>
       </div>
 
-      <Footer />
     </>
   );
 };

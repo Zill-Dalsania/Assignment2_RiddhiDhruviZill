@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../../Footer/Footer';
+
 import Navbar from '../../Navbar/Navbar';
 import Sidebar from '../../Sidebar/Sidebar';
 import './ProductPage.css';
@@ -30,7 +30,7 @@ const ProductPage = () => {
           <span>&#8594;</span>
         </div>
       </section>
-      <Footer />
+      
     </>
   );
 };
